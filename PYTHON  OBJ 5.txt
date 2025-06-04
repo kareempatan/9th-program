@@ -1,0 +1,57 @@
+
+			PYTHON FUNCTION THAT CREATES AND RETURNS AN OBJECTS
+
+class car:
+    def_init_(self,brand,speed):
+        self.brand=brand
+        self.speed=speed
+    def display(self):
+        print(f"brand:{self.brand},speed:{self.speed}km/h")
+def create_car():
+    car1=car("Toyota",180)
+    return car1
+my_car=create_car()
+my_car.display()
+
+----------------------------------------------------------------------------------------------
+
+		FUNCTION THAT TAKES A STUDENT OBJECT AS AN ARGUMENT AND PRINT STUDENT INFORMATION
+
+
+class Student:
+    def __int__(self,name,marks):
+        self.name=name
+        self.marks=marks
+    def print_student_info(Student):
+        print(f"name:{Student.name},marks:{Student.marks}")
+s1=Student("tillu",92)
+print_student_info(s1)
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+		P.P THAT RETURN A CIRCLE OBJECT CREATES WITH A GIVEN RADIUS
+
+class Circle:
+    def __init__(self,radius):
+        self.radius=radius
+    def area (self):
+        return 3.14*self.radius*self.radius
+def get_circle(r):
+    return Circle(r)
+    C=get_Circle(5)
+print("area of circle:",C.area())
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+			THAT RETURNS A LIST OF 3 BOOK
+class Book:
+    def __init__(self,title):
+        self.title=title
+def create_Book_list():
+    return (Book("python 101"),Book("AI basics"),Book("data science"))
+books=create_book_list()
+for b in Books:
+    print("Book title:",b.title)
+
